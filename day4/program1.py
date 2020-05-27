@@ -1,0 +1,5 @@
+l = list(map(int, input().split()))
+tup = tuple(l)
+a = int(input("Enter the element whose occurrence you want to know "))
+c = tup.count(a)
+print("Occurrence of element is: ", c)
