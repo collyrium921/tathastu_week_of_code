@@ -1,0 +1,5 @@
+print("Enter list elements with spaces")
+l = list(map(int, input().split()))
+s = set(l)
+print("List after removing duplicates")
+print(list(s))
