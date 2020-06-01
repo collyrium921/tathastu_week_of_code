@@ -1,0 +1,5 @@
+print("Enter elements of list")
+l = list(map(int, input().split()))
+s = sorted(l)
+K = int(input("Enter samllest number: "))
+print("Kth smallest elemnt is: ", s[K-1])
